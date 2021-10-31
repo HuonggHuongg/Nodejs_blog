@@ -1,14 +1,13 @@
-class SiteController{
-
+class SiteController {
     // GET /
-    home(reg, res){
+    home(reg, res) {
         res.render('home');
     }
 
     //GET (/search)
-    search(reg, res){
+    search(reg, res) {
         res.render('search');
     }
 }
 
-module.exports = new SiteController;
+module.exports = new SiteController();

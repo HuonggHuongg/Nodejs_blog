@@ -1,12 +1,12 @@
-class NewsController{
-    index(reg, res){
+class NewsController {
+    index(reg, res) {
         res.render('news');
     }
 
     //GET (/news: slug)
-    show(reg, res){
+    show(reg, res) {
         res.send('News detail!!');
     }
 }
 
-module.exports = new NewsController;
+module.exports = new NewsController();
