@@ -1,0 +1,21 @@
+{
+  "name": "blog_huong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "watch": "node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuonggHuongg/Nodejs_blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuonggHuongg/Nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/HuonggHuongg/Nodejs_blog#readme"
+}
